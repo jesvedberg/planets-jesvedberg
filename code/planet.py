@@ -74,6 +74,7 @@ l=1000;
 e=np.zeros(int(L/l), dtype=float);
 for i in range(0,int(L/l)):
     win=range(i*l*365,(i+1)*l*365)
+
     print((win))
     a=max(rj[win])
     b=min(rj[win])
